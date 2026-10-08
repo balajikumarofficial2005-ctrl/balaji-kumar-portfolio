@@ -1,0 +1,23 @@
+{
+  "folders": [{ "path": "." }],
+  "settings": {
+    "editor.tabSize": 2,
+    "editor.wordWrap": "on",
+    "files.exclude": { "**/.DS_Store": true }
+  },
+  "tasks": {
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "Preview portfolio",
+        "type": "process",
+        "command": "node",
+        "args": ["server.js"],
+        "options": { "cwd": "${workspaceFolder}" },
+        "isBackground": true,
+        "problemMatcher": [],
+        "presentation": { "reveal": "always", "panel": "dedicated" }
+      }
+    ]
+  }
+}
