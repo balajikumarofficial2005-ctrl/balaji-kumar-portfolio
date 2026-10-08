@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="750" viewBox="0 0 1200 750" fill="none">
+  <title>Task Management API architecture illustration</title>
+  <desc>Original vector developer concept showing an authenticated REST request, JSON task response, and a Node.js API connected to MongoDB.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="750" gradientUnits="userSpaceOnUse"><stop stop-color="#26382B"/><stop offset="1" stop-color="#17241C"/></linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientTransform="translate(938 330) rotate(92) scale(331 372)" gradientUnits="userSpaceOnUse"><stop stop-color="#587142" stop-opacity=".45"/><stop offset="1" stop-color="#38583E" stop-opacity="0"/></radialGradient>
+    <linearGradient id="link" x1="719" y1="0" x2="1054" y2="0" gradientUnits="userSpaceOnUse"><stop stop-color="#57734E"/><stop offset="1" stop-color="#D7F66D"/></linearGradient>
+    <filter id="shadow" x="0" y="0" width="1200" height="750" filterUnits="userSpaceOnUse"><feDropShadow dx="0" dy="20" stdDeviation="20" flood-color="#0D1611" flood-opacity=".3"/></filter>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" stroke="#87A27A" stroke-opacity=".075"/></pattern>
+  </defs>
+  <rect width="1200" height="750" rx="32" fill="url(#bg)"/>
+  <rect width="1200" height="750" rx="32" fill="url(#grid)"/>
+  <rect width="1200" height="750" rx="32" fill="url(#glow)"/>
+  <text x="77" y="81" fill="#D7F66D" font-family="Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="3">TASK MANAGEMENT API</text>
+  <text x="77" y="128" fill="#F6F5F0" font-family="Georgia, serif" font-size="39">Built around the request.</text>
+  <text x="78" y="155" fill="#A8B89F" font-family="Arial, sans-serif" font-size="13">A REST API for creating, finding, updating and organizing tasks.</text>
+  <g filter="url(#shadow)">
+    <rect x="77" y="199" width="655" height="445" rx="17" fill="#19251D" stroke="#4A6245"/>
+    <path d="M77 216C77 206.61 84.61 199 94 199H715C724.39 199 732 206.61 732 216V243H77V216Z" fill="#2A3A2C"/>
+    <circle cx="100" cy="222" r="4" fill="#65805B"/><circle cx="115" cy="222" r="4" fill="#65805B"/><circle cx="130" cy="222" r="4" fill="#65805B"/>
+    <text x="404" y="226" text-anchor="middle" fill="#B8C5AC" font-family="Consolas, monospace" font-size="11">tasks / REST request</text>
+    <rect x="101" y="267" width="53" height="27" rx="5" fill="#38583E"/>
+    <text x="127.5" y="285" text-anchor="middle" fill="#D7F66D" font-family="Consolas, monospace" font-size="12" font-weight="700">GET</text>
+    <text x="169" y="285" fill="#E9ECD7" font-family="Consolas, monospace" font-size="14">/api/tasks?status=pending&amp;page=1</text>
+    <path d="M101 316H708" stroke="#33472F"/>
+    <text x="102" y="343" fill="#839C78" font-family="Consolas, monospace" font-size="11">Authorization</text>
+    <text x="257" y="343" fill="#BBCBAA" font-family="Consolas, monospace" font-size="11">Bearer &lt;JWT token&gt;</text>
+    <rect x="583" y="329" width="125" height="22" rx="11" fill="#2D452F"/>
+    <circle cx="597" cy="340" r="3" fill="#D7F66D"/>
+    <text x="610" y="344" fill="#D7F66D" font-family="Consolas, monospace" font-size="10">200 OK · example</text>
+    <path d="M101 369H708" stroke="#33472F"/>
+    <g fill="#52684A" font-family="Consolas, monospace" font-size="12" text-anchor="end"><text x="115" y="400">1</text><text x="115" y="424">2</text><text x="115" y="448">3</text><text x="115" y="472">4</text><text x="115" y="496">5</text><text x="115" y="520">6</text><text x="115" y="544">7</text><text x="115" y="568">8</text><text x="115" y="592">9</text><text x="115" y="616">10</text></g>
+    <g font-family="Consolas, monospace" font-size="13"><text x="144" y="400" fill="#BFCBAE">{</text><text x="160" y="424"><tspan fill="#A9C58C">"tasks"</tspan><tspan fill="#BFCBAE">: [</tspan></text><text x="176" y="448" fill="#BFCBAE">{</text><text x="192" y="472"><tspan fill="#A9C58C">"title"</tspan><tspan fill="#BFCBAE">: </tspan><tspan fill="#D7F66D">"Ship the next idea"</tspan><tspan fill="#BFCBAE">,</tspan></text><text x="192" y="496"><tspan fill="#A9C58C">"status"</tspan><tspan fill="#BFCBAE">: </tspan><tspan fill="#D7F66D">"pending"</tspan></text><text x="176" y="520" fill="#BFCBAE">}</text><text x="160" y="544" fill="#BFCBAE">],</text><text x="160" y="568"><tspan fill="#A9C58C">"page"</tspan><tspan fill="#BFCBAE">: </tspan><tspan fill="#E4C88C">1</tspan><tspan fill="#BFCBAE">,</tspan></text><text x="160" y="592"><tspan fill="#A9C58C">"limit"</tspan><tspan fill="#BFCBAE">: </tspan><tspan fill="#E4C88C">10</tspan></text><text x="144" y="616" fill="#BFCBAE">}</text></g>
+    <path d="M552 449H672M552 460H645M552 471H663" stroke="#344A30" stroke-width="3" stroke-linecap="round"/>
+    <text x="552" y="501" fill="#6A855F" font-family="Arial, sans-serif" font-size="9" letter-spacing="1.5">EXAMPLE RESPONSE</text>
+  </g>
+  <path d="M732 392H778C789 392 798 383 798 372V335" stroke="url(#link)" stroke-width="2"/>
+  <path d="M880 335V407C880 418 889 427 900 427H980" stroke="#6F915A" stroke-width="2"/>
+  <path d="M880 335V514C880 525 871 534 860 534H847" stroke="#4F7147" stroke-width="2" stroke-dasharray="5 5"/>
+  <circle cx="732" cy="392" r="4" fill="#D7F66D"/><circle cx="798" cy="355" r="4" fill="#D7F66D"/><circle cx="935" cy="427" r="4" fill="#D7F66D"/>
+  <rect x="780" y="228" width="265" height="109" rx="16" fill="#D7F66D"/>
+  <path d="M807 255L823 246L839 255V273L823 282L807 273Z" stroke="#38583E" stroke-width="2"/>
+  <path d="M815 272V257L823 267V257M830 257V272" stroke="#38583E" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="855" y="264" fill="#20271E" font-family="Arial, sans-serif" font-size="17" font-weight="700">Node.js API</text>
+  <text x="855" y="284" fill="#4F6437" font-family="Consolas, monospace" font-size="10">JWT · validation · routing</text>
+  <path d="M804 303H1021" stroke="#7E9E43" stroke-opacity=".5"/>
+  <text x="804" y="322" fill="#38583E" font-family="Consolas, monospace" font-size="10">REQUEST → AUTH → CONTROLLER</text>
+  <rect x="948" y="382" width="175" height="133" rx="16" fill="#253D2A" stroke="#58764C"/>
+  <path d="M983 411C983 405 1006 401 1035 401C1064 401 1087 405 1087 411V463C1087 469 1064 473 1035 473C1006 473 983 469 983 463V411Z" fill="#365338" stroke="#93B278" stroke-width="1.5"/>
+  <ellipse cx="1035" cy="411" rx="52" ry="10" fill="#446243" stroke="#93B278" stroke-width="1.5"/>
+  <path d="M983 428C983 434 1006 438 1035 438C1064 438 1087 434 1087 428M983 445C983 451 1006 455 1035 455C1064 455 1087 451 1087 445" stroke="#93B278" stroke-width="1.5"/>
+  <text x="1035" y="496" text-anchor="middle" fill="#E6ECCD" font-family="Arial, sans-serif" font-size="13" font-weight="700">MongoDB</text>
+  <text x="883" y="403" fill="#8FAE7D" font-family="Consolas, monospace" font-size="9">Mongoose</text>
+  <rect x="780" y="503" width="115" height="64" rx="12" fill="#223A28" stroke="#4A6C45"/>
+  <path d="M804 527V520C804 511 818 511 818 520V527M802 525H820V541H802Z" stroke="#A8C784" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="811" cy="532" r="1.5" fill="#A8C784"/><path d="M811 533V536" stroke="#A8C784" stroke-width="1.3"/>
+  <text x="832" y="529" fill="#E6ECCD" font-family="Arial, sans-serif" font-size="11" font-weight="700">JWT</text>
+  <text x="832" y="546" fill="#90A97E" font-family="Arial, sans-serif" font-size="9">Protected routes</text>
+  <path d="M780 601H1123" stroke="#40593A"/>
+  <g font-family="Consolas, monospace" font-size="10"><text x="780" y="624" fill="#D7F66D">POST</text><text x="836" y="624" fill="#A8B89F">create</text><text x="956" y="624" fill="#D7F66D">PATCH</text><text x="1012" y="624" fill="#A8B89F">update</text><text x="780" y="644" fill="#D7F66D">GET</text><text x="836" y="644" fill="#A8B89F">search + filter</text><text x="956" y="644" fill="#D7F66D">DELETE</text><text x="1012" y="644" fill="#A8B89F">remove</text></g>
+  <path d="M77 679H1123" stroke="#3C5235"/>
+  <text x="78" y="708" fill="#6F8E62" font-family="Arial, sans-serif" font-size="10" letter-spacing="1.4">RESTFUL DESIGN</text>
+  <g fill="#A8B89F" font-family="Consolas, monospace" font-size="10"><text x="781" y="708">Node.js</text><text x="863" y="708">MongoDB</text><text x="945" y="708">Postman</text><text x="1047" y="708">Render</text></g>
+  <circle cx="838" cy="704" r="2" fill="#4F6D43"/><circle cx="920" cy="704" r="2" fill="#4F6D43"/><circle cx="1018" cy="704" r="2" fill="#4F6D43"/>
+</svg>

@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="750" viewBox="0 0 1200 750" fill="none">
+  <title>TripFinder travel discovery interface illustration</title>
+  <desc>Original vector concept showing a travel discovery browser with destination filters, illustrated mountains, coastal stays and places to explore.</desc>
+  <defs>
+    <linearGradient id="canvas" x1="0" y1="0" x2="1200" y2="750" gradientUnits="userSpaceOnUse"><stop stop-color="#E7ECD9"/><stop offset="1" stop-color="#D1DBC7"/></linearGradient>
+    <linearGradient id="sky" x1="330" y1="195" x2="780" y2="470" gradientUnits="userSpaceOnUse"><stop stop-color="#DFEBCF"/><stop offset="1" stop-color="#9FB99D"/></linearGradient>
+    <linearGradient id="sea" x1="822" y1="514" x2="822" y2="640" gradientUnits="userSpaceOnUse"><stop stop-color="#8FAFA2"/><stop offset="1" stop-color="#527669"/></linearGradient>
+    <filter id="shadow" x="0" y="0" width="1200" height="750" filterUnits="userSpaceOnUse"><feDropShadow dx="0" dy="22" stdDeviation="20" flood-color="#263E2C" flood-opacity=".14"/></filter>
+    <clipPath id="hero"><rect x="314" y="201" width="749" height="270" rx="18"/></clipPath>
+    <clipPath id="card1"><rect x="314" y="500" width="238" height="130" rx="12"/></clipPath>
+    <clipPath id="card2"><rect x="571" y="500" width="238" height="130" rx="12"/></clipPath>
+    <clipPath id="card3"><rect x="828" y="500" width="235" height="130" rx="12"/></clipPath>
+  </defs>
+  <rect width="1200" height="750" rx="32" fill="url(#canvas)"/>
+  <path d="M-42 190C185 73 474 41 683 169C892 297 1039 268 1238 127" stroke="#F6F5F0" stroke-opacity=".37" stroke-width="2"/>
+  <path d="M-71 235C176 109 458 87 676 209C899 334 1050 315 1238 175" stroke="#F6F5F0" stroke-opacity=".37" stroke-width="2"/>
+  <path d="M-42 697C185 580 474 548 683 676C892 804 1039 775 1238 634" stroke="#38583E" stroke-opacity=".1" stroke-width="2"/>
+  <g filter="url(#shadow)">
+    <rect x="94" y="68" width="1012" height="614" rx="22" fill="#F6F5F0"/>
+    <path d="M94 90C94 77.85 103.85 68 116 68H1084C1096.15 68 1106 77.85 1106 90V110H94V90Z" fill="#E9ECE2"/>
+    <circle cx="118" cy="89" r="4" fill="#A9B4A2"/><circle cx="133" cy="89" r="4" fill="#A9B4A2"/><circle cx="148" cy="89" r="4" fill="#A9B4A2"/>
+    <rect x="418" y="79" width="364" height="20" rx="6" fill="#F6F5F0"/>
+    <path d="M432 89H438M435 86V92" stroke="#85907F" stroke-width="1.4" stroke-linecap="round"/>
+    <text x="598" y="93" text-anchor="middle" fill="#73806C" font-family="Arial, sans-serif" font-size="10">tripfinder · travel discovery concept</text>
+    <path d="M94 110H1106" stroke="#DBE1D4"/>
+    <path d="M136 141L144 129L152 141L145 137L136 141Z" fill="#38583E"/>
+    <path d="M149 146L157 134L165 146L157 142L149 146Z" fill="#7B946C"/>
+    <text x="177" y="146" fill="#20271E" font-family="Arial, sans-serif" font-size="21" font-weight="700" letter-spacing="-.7">TripFinder</text>
+    <text x="576" y="145" fill="#38583E" font-family="Arial, sans-serif" font-size="12" font-weight="700">Explore</text>
+    <text x="665" y="145" fill="#73806C" font-family="Arial, sans-serif" font-size="12">Stays</text>
+    <text x="737" y="145" fill="#73806C" font-family="Arial, sans-serif" font-size="12">Restaurants</text>
+    <text x="949" y="145" fill="#38583E" font-family="Arial, sans-serif" font-size="12" font-weight="700">Log in</text>
+    <rect x="998" y="126" width="65" height="29" rx="14.5" fill="#38583E"/>
+    <text x="1030.5" y="145" text-anchor="middle" fill="#F6F5F0" font-family="Arial, sans-serif" font-size="11" font-weight="700">Sign up</text>
+    <path d="M136 178H1063" stroke="#DCE2D6"/>
+    <text x="136" y="214" fill="#20271E" font-family="Arial, sans-serif" font-size="15" font-weight="700">Find your next</text>
+    <text x="136" y="234" fill="#20271E" font-family="Arial, sans-serif" font-size="15" font-weight="700">change of scenery.</text>
+    <rect x="136" y="253" width="151" height="36" rx="8" fill="#EDF0E8"/>
+    <circle cx="152" cy="270" r="4" stroke="#7E8A73" stroke-width="1.4"/><path d="M155 273L159 277" stroke="#7E8A73" stroke-width="1.4" stroke-linecap="round"/>
+    <text x="167" y="276" fill="#85907F" font-family="Arial, sans-serif" font-size="10">Where to?</text>
+    <text x="136" y="324" fill="#20271E" font-family="Arial, sans-serif" font-size="11" font-weight="700">DESTINATION</text>
+    <g fill="#F6F5F0" stroke="#B9C5AD"><rect x="136" y="340" width="13" height="13" rx="3"/><rect x="136" y="369" width="13" height="13" rx="3"/><rect x="136" y="398" width="13" height="13" rx="3"/></g>
+    <rect x="136" y="369" width="13" height="13" rx="3" fill="#38583E"/><path d="M139 375L142 378L147 372" stroke="#F6F5F0" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <g fill="#73806C" font-family="Arial, sans-serif" font-size="11"><text x="160" y="351">Coast &amp; beaches</text><text x="160" y="380" fill="#38583E">Mountains</text><text x="160" y="409">City escapes</text></g>
+    <path d="M136 436H287" stroke="#DCE2D6"/>
+    <text x="136" y="468" fill="#20271E" font-family="Arial, sans-serif" font-size="11" font-weight="700">EXPLORE BY</text>
+    <g font-family="Arial, sans-serif" font-size="11"><text x="160" y="498" fill="#38583E">Places to stay</text><text x="160" y="527" fill="#73806C">Food &amp; drink</text><text x="160" y="556" fill="#73806C">Traveler reviews</text></g>
+    <path d="M137 488H149V498H137Z M139 485H147V488" stroke="#38583E" stroke-width="1.4" stroke-linejoin="round"/>
+    <path d="M140 514V522M144 514V522M148 514V531M140 522H144M142 522V531" stroke="#73806C" stroke-width="1.3" stroke-linecap="round"/>
+    <path d="M143 542L145 547L150 547L146 550L148 556L143 553L138 556L140 550L136 547L141 547Z" stroke="#73806C" stroke-width="1.2" stroke-linejoin="round"/>
+    <rect x="136" y="590" width="151" height="50" rx="10" fill="#E8EDDD"/>
+    <text x="148" y="609" fill="#38583E" font-family="Arial, sans-serif" font-size="10" font-weight="700">A little further from ordinary.</text>
+    <text x="148" y="625" fill="#7C8A70" font-family="Arial, sans-serif" font-size="10">Find a place that feels like you.</text>
+    <g clip-path="url(#hero)">
+      <rect x="314" y="201" width="749" height="270" fill="url(#sky)"/>
+      <circle cx="914" cy="270" r="41" fill="#F4F0C5"/>
+      <path d="M314 417L483 254L596 357L693 236L833 360L917 302L1064 410V479H314Z" fill="#91A68A"/>
+      <path d="M445 292L483 254L531 298L489 284L474 291L461 283Z M648 284L693 236L752 288L708 268L693 276L678 264Z" fill="#E7EBD8"/>
+      <path d="M314 438L462 358L548 410L651 313L793 440L906 351L1064 446V484H314Z" fill="#547D5B"/>
+      <path d="M314 477L481 410L594 450L727 393L856 442L1064 412V484Z" fill="#38583E"/>
+      <path d="M669 472C705 450 730 451 747 438C764 425 750 412 737 404" stroke="#C5D6B3" stroke-width="8"/>
+      <g fill="#233F2C"><path d="M861 432L879 386L898 432Z M908 453L932 394L955 453Z M1006 440L1024 394L1043 440Z"/><path d="M921 440H941V476H921Z M872 421H885V462H872Z M1018 425H1031V476H1018Z"/></g>
+      <rect x="314" y="201" width="749" height="270" fill="#20371F" fill-opacity=".07"/>
+      <rect x="341" y="226" width="130" height="23" rx="11.5" fill="#F6F5F0" fill-opacity=".82"/>
+      <circle cx="356" cy="237.5" r="3" fill="#38583E"/>
+      <text x="367" y="241" fill="#38583E" font-family="Arial, sans-serif" font-size="9" font-weight="700" letter-spacing="1.1">TAKE THE SCENIC ROUTE</text>
+      <text x="342" y="316" fill="#F6F5F0" font-family="Georgia, serif" font-size="42">A new view.</text>
+      <text x="342" y="361" fill="#F6F5F0" font-family="Georgia, serif" font-size="42">A fresh perspective.</text>
+      <text x="344" y="391" fill="#E9EDDF" font-family="Arial, sans-serif" font-size="12">Discover somewhere that stays with you.</text>
+      <rect x="342" y="415" width="130" height="31" rx="15.5" fill="#D7F66D"/>
+      <text x="358" y="435" fill="#20271E" font-family="Arial, sans-serif" font-size="11" font-weight="700">Explore destinations</text>
+      <path d="M451 430H459M455 427L459 430L455 433" stroke="#20271E" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <g clip-path="url(#card1)"><rect x="314" y="500" width="238" height="130" fill="#D2DCC2"/><circle cx="492" cy="529" r="21" fill="#E6EACD"/><path d="M300 600L376 529L456 599L494 557L567 611V646H300Z" fill="#7A9772"/><path d="M300 636L391 579L472 638L523 600L567 626V646H300Z" fill="#38583E"/><path d="M380 605H439V635H380Z" fill="#BFAC88"/><path d="M369 606L409 578L451 606Z" fill="#253E2C"/><path d="M402 615H417V635H402Z" fill="#4B664B"/><path d="M389 613H397V621H389Z M422 613H430V621H422Z" fill="#E2D7B4"/></g>
+    <g clip-path="url(#card2)"><rect x="571" y="500" width="238" height="130" fill="#CEB68F"/><rect x="587" y="517" width="48" height="92" rx="24" fill="#EFE4CE"/><rect x="646" y="517" width="48" height="92" rx="24" fill="#EFE4CE"/><rect x="705" y="517" width="48" height="92" rx="24" fill="#EFE4CE"/><path d="M596 604V561C596 540 626 540 626 561V604Z M655 604V561C655 540 685 540 685 561V604Z M714 604V561C714 540 744 540 744 561V604Z" fill="#6A7D60"/><path d="M571 609H809V630H571Z" fill="#A49576"/><path d="M607 584H744" stroke="#DCC49B" stroke-width="4"/><path d="M612 583V623M739 583V623" stroke="#DCC49B" stroke-width="5"/><path d="M790 577C754 570 763 542 785 547C756 511 801 508 798 541C819 523 838 543 809 561" fill="#38583E"/><path d="M791 559V621" stroke="#38583E" stroke-width="7"/></g>
+    <g clip-path="url(#card3)"><rect x="828" y="500" width="235" height="130" fill="#E5E5CC"/><path d="M828 549C912 533 976 561 1063 544V637H828Z" fill="url(#sea)"/><path d="M828 601C894 568 933 586 977 600C1008 610 1036 599 1063 583V637H828Z" fill="#D3C5A2"/><path d="M868 548H941V594H868Z" fill="#F1E7CE"/><path d="M858 551L905 522L951 551Z" fill="#536F52"/><path d="M897 562H914V594H897Z" fill="#839378"/><path d="M877 564H888V578H877Z M923 564H934V578H923Z" fill="#839378"/><path d="M1007 602V536" stroke="#476B4F" stroke-width="4"/><path d="M1007 541C979 532 966 543 968 555C981 542 995 545 1007 545C1016 522 1037 523 1046 533C1028 528 1016 538 1007 544C1025 540 1039 547 1040 561C1028 548 1018 549 1007 547" fill="#476B4F"/><path d="M954 567H977M999 574H1034M835 574H858" stroke="#D5DFCD" stroke-opacity=".65" stroke-width="2" stroke-linecap="round"/></g>
+    <g fill="#20271E" font-family="Arial, sans-serif" font-size="12" font-weight="700"><text x="314" y="650">Mountain hideaways</text><text x="571" y="650">Places worth tasting</text><text x="828" y="650">Life by the coast</text></g>
+    <g fill="#7C8A70" font-family="Arial, sans-serif" font-size="9"><text x="314" y="665">STAYS &amp; SLOW MORNINGS</text><text x="571" y="665">LOCAL FOOD &amp; FRESH FINDS</text><text x="828" y="665">SUNSHINE &amp; SEA AIR</text></g>
+  </g>
+</svg>
